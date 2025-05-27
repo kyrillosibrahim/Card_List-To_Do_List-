@@ -1,0 +1,61 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      rel="stylesheet"
+    />
+
+    <title>To DO</title>
+  </head>
+
+  <body>
+    <div class="container shadow-lg my-4 p-5 rounded-4 bg-opacity-50">
+      <input
+        id="prodName"
+        type="text"
+        class="form-control my-3 bg-opacity-50"
+        placeholder="Enter product name"
+      />
+      <input
+        id="prodPrice"
+        type="number"
+        class="form-control my-3"
+        placeholder="Enter product price"
+      />
+      <textarea
+        id="prodDesc"
+        cols="30"
+        rows="5"
+        class="form-control"
+        placeholder="Enter Product Description"
+      ></textarea>
+      <button id="Submitt" class="btn btn-outline-dark my-3">
+        Add product
+      </button>
+      <input
+        type="text"
+        class="form-control w-50 m-auto"
+        placeholder="Search..."
+        id="Search"
+      />
+    </div>
+
+    <div class="container my-5 shadow-lg p-1">
+      <table class="table table-hover text-center">
+        <thead>
+          <th>Name</th>
+          <th>Price</th>
+          <th>Description</th>
+          <th>Actions</th>
+        </thead>
+        <tbody id="demo"></tbody>
+      </table>
+      <!-- <i class="fa-solid fa-check"></i>                        -->
+    </div>
+    <script src="js/main.js"></script>
+  </body>
+</html>

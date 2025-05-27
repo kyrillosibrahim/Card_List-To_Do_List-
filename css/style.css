@@ -1,0 +1,14 @@
+body {
+  background-image: url(../images/bg2.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+span {
+  background-color: #accdffeb;
+  font-weight: 500;
+}
+
+#prodName i {
+  font-size: 20px;
+}
